@@ -137,6 +137,12 @@ namespace Ass03EfCore
             //InstructorOperations.GetInstructorsById(context, 1);
             //InstructorOperations.UpdateInstructor(context, 1);
             //InstructorOperations.DeleteInstructor(context, 4);
+            //Category Test
+            //CategoryOperations.AddCategory(context);
+            //CategoryOperations.GetAllCaegoris(context);
+            //CategoryOperations.GetCategoryById(context, 1);
+            //CategoryOperations.UpdateCategory(context, 1);
+            //CategoryOperations.DeleteCategory(context, 1);
         }
     }
 }
