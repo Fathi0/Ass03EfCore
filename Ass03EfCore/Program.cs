@@ -1,4 +1,5 @@
-﻿using Ass03EfCore.Models;
+﻿using Ass03EfCore.Enums;
+using Ass03EfCore.Models;
 using Ass03EfCore.Operations;
 
 namespace Ass03EfCore
@@ -143,6 +144,28 @@ namespace Ass03EfCore
             //CategoryOperations.GetCategoryById(context, 1);
             //CategoryOperations.UpdateCategory(context, 1);
             //CategoryOperations.DeleteCategory(context, 1);
+            //Course Test
+            //CourseOperations.AddCourse(context);
+            //CourseOperations.GetAllCourses(context);
+            //CourseOperations.GetCourseById(context, 1);
+            //CourseOperations.UpdateCourse(context, 1);
+            //CourseOperations.DeleteCourse(context, 7);
+            //Enrollment Test
+            //EnrollmentOperations.AddEnrollment(context);
+            //EnrollmentOperations.GetAllEnrollments(context);
+            //EnrollmentOperations.GetEnrollmentById(context, 1, 1);
+            //EnrollmentOperations.UpdateEnrollment(context, 1, 1, 100);
+            //EnrollmentOperations.UpdateFinalGrade(context, 1, 1, 95);
+            //EnrollmentOperations.DeleteEnrollmentById(context, 1, 1);
+            //Bulk Operations Test
+            //CourseOperations.BulkUpdateCoursePrices(context);
+
+            //CourseOperations.BulkIncreaseCoursePrices(
+            //    context,
+            //    CourseLevel.Beginner
+            //);
+
+            //EnrollmentOperations.BulkDeleteDroppedEnrollments(context);
         }
     }
 }
