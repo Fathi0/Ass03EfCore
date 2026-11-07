@@ -1,4 +1,5 @@
 ﻿using Ass03EfCore.Models;
+using Ass03EfCore.Operations;
 
 namespace Ass03EfCore
 {
@@ -123,6 +124,13 @@ namespace Ass03EfCore
                 context.Enrollments.AddRange(enrollments);
                 context.SaveChanges();
             }
+            //Student Test
+            //StudentOperations.AddStudent(context);
+            //StudentOperations.AddStudent(context); //->Not Added
+            //StudentOperations.GetAllStudents(context);
+            //StudentOperations.GetStudentById(context, 1);
+            //StudentOperations.UpdateStudent(context, 1);
+            //StudentOperations.DeleteStudent(context, 6);
         }
     }
 }
