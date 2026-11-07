@@ -131,6 +131,12 @@ namespace Ass03EfCore
             //StudentOperations.GetStudentById(context, 1);
             //StudentOperations.UpdateStudent(context, 1);
             //StudentOperations.DeleteStudent(context, 6);
+            //Instructor Test
+            //InstructorOperations.AddInstructor(context);
+            //InstructorOperations.GetAllInstructor(context);
+            //InstructorOperations.GetInstructorsById(context, 1);
+            //InstructorOperations.UpdateInstructor(context, 1);
+            //InstructorOperations.DeleteInstructor(context, 4);
         }
     }
 }
